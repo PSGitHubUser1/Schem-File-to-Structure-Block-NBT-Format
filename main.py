@@ -78,5 +78,5 @@ for i in range(len(WE["BlockData"])):
 	print("Processed "+str(i)+"/"+str(len(WE["BlockData"]))+" blocks. ("+str(round(i/len(WE["BlockData"])*100,2))+"%)",end="\r")
 
 print("\nDone! Saving...")
-File({'': Compound(nbtSchem)},gzipped=True).save("output.nbt")
-print("Saved to output.nbt")
+File({'': Compound(nbtSchem)},gzipped=True).save("exported.nbt")
+print("Saved to exported.nbt")
